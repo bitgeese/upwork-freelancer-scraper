@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "upwork-freelancer-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Maciej Janowski <maciej.janowski1@icloud.com>"]
+readme = "README.md"
+packages = [{include = "upwork_freelancer_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.22.0"
+bs4 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
